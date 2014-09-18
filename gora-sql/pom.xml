@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.gora</groupId>
+        <groupId>com.argonio.gora</groupId>
         <artifactId>gora</artifactId>
         <version>0.5-SNAPSHOT</version>
         <relativePath>../</relativePath>
@@ -54,7 +54,7 @@
 
     <properties>
         <osgi.import>*</osgi.import>
-        <osgi.export>org.apache.gora.sql*;version="${project.version}";-noimport:=true</osgi.export>
+        <osgi.export>osgi.export.gora.sql*;version="${project.version}";-noimport:=true</osgi.export>
     </properties>
 
     <build>
@@ -124,12 +124,12 @@
     <dependencies>
         <!-- Gora Internal Dependencies -->
         <dependency>
-            <groupId>org.apache.gora</groupId>
+            <groupId>com.argonio.gora</groupId>
             <artifactId>gora-core</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.apache.gora</groupId>
+            <groupId>com.argonio.gora</groupId>
             <artifactId>gora-core</artifactId>
             <type>test-jar</type>
             <scope>test</scope>

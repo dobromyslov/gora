@@ -21,7 +21,7 @@
 
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.apache.gora</groupId>
+    <groupId>com.argonio.gora</groupId>
     <artifactId>gora</artifactId>
     <version>0.5</version>
     <relativePath>../</relativePath>
@@ -140,7 +140,7 @@
       <id>accumulo-1.4</id>
       <dependencies>
         <dependency>
-          <groupId>org.apache.gora</groupId>
+          <groupId>com.argonio.gora</groupId>
           <artifactId>gora-accumulo</artifactId>
           <scope>runtime</scope>
         </dependency>
@@ -176,7 +176,7 @@
       <!-- this profile contains the runtime deps for hbase-0.92 -->
       <dependencies>
         <dependency>
-          <groupId>org.apache.gora</groupId>
+          <groupId>com.argonio.gora</groupId>
           <artifactId>gora-hbase</artifactId>
           <scope>runtime</scope>
         </dependency>
@@ -205,7 +205,7 @@
       <!-- this profile contains the runtime deps for Cassandra 1.1.2 -->
       <dependencies>
         <dependency>
-          <groupId>org.apache.gora</groupId>
+          <groupId>com.argonio.gora</groupId>
           <artifactId>gora-cassandra</artifactId>
           <scope>runtime</scope>
         </dependency>
@@ -259,7 +259,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.apache.gora</groupId>
+      <groupId>com.argonio.gora</groupId>
       <artifactId>gora-core</artifactId>
     </dependency>
 
